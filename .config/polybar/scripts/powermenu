@@ -1,0 +1,18 @@
+#!bin/bash
+
+value="$(rofi -sep "\n" -dmenu -i -p "Powermenu" -input "$HOME"/.config/polybar/rofi-input-files/powermenu)"
+
+case $value in
+Suspend)
+sudo systemctl suspend
+;;
+Poweroff)
+sudo systemctl poweroff
+;;
+Reboot)
+sudo systemctl reboot
+;;
+*)
+echo Error
+;;
+esac

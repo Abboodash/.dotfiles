@@ -1,0 +1,27 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+matches:
+  - trigger: ":date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%m/%d/%Y"
+
+  - trigger: ":pem"
+    replace: "abboodash@proton.me"
+
+  - trigger: ":gem0"
+    replace: "BuggyCoders.Official@gmail.com"
+
+  - trigger: ":gem1"
+    replace: "clearabboodash@gmail.com"
+
+  - trigger: ":gem2"
+    replace: "aboodabooshtar@gmail.com"
+
+  - trigger: ":epnv"
+    replace: "nvim $HOME/.config/espanso/match/base.yml"
