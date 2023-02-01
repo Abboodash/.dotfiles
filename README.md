@@ -1,42 +1,29 @@
-# .dotfiles
+## 🍃 Information
 
-my personal .dotfiles
+- **Operating System**: [Arch](https://archlinux.org)
+- **Window Manager**: [bspwm](https://github.com/baskerville/bspwm)
+- **Bar**: [polybar](https://github.com/polybar/polybar)
+- **Editor**: [neovim](https://neovim.io)
+- **Editor CLient**: [neovide](https://neovide.dev)
+- **Shell**: [zsh + oh-my-zsh](https://ohmyz.sh)
+- **Terminal**: [kitty](https://sw.kovidgoyal.net/kitty/)
+- **CLI**: [starship](https://starship.rs)
+- **Notification Manager**: [dunst](https://dunst-project.org)
+- **Input Manager**: [fcitx5](https://github.com/fcitx5/fcitx5)
+- **Application Launcher**: [rofi](https://github.com/davatorium/rofi)
+- **Text Expander**: [espanso](https://espanso.org)
 
-## Programs
+## 📦 Setup
 
-| Usage                | Program                                       |
-| -------------------- | --------------------------------------------- |
-| OS                   | [Arch](https://archlinux.org)                 |
-| Editor               | [neovim](https://neovim.io)                   |
-| Editor Client        | [neovide](https://neovide.dev)                |
-| Shell                | [zsh + om-my-zsh](https://ohmyz.sh)           |
-| Terminal             | [kitty](https://sw.kovidgoyal.net/kitty/)     |
-| CLI                  | [starship](https://starship.rs)               |
-| WM                   | [bspwm](https://github.com/baskerville/bspwm) |
-| Hotkeys Daemon       | [sxhkd](https://github.com/baskerville/sxhkd) |
-| Notifications        | [dunst](https://dunst-project.org/)           |
-| Input Manager        | [fcitx5](https://github.com/fcitx/fcitx5)     |
-| Bar                  | [polybar]()                                   |
-| Application Launcher | [rofi](https://github.com/davatorium/rofi)    |
-| Cool autocompletions | [espanso](https://espanso.org/)               |
+```bash
+# Clone the repo
+git clone https://github.com/Abboodash/.dotfiles.git
 
-## Requirements
+# Make symbolic links
+cd .dotfiles && stow -t ~/
+```
 
-> `None` just install the programs
+## ⭐ Credits
 
-## Installation
-
-- clone the repo
-- link the files to its destinations using:
-  ```bash
-  ln -s <COMPLETE_PATH_FOR> <COMPLETE_PATH_TO>
-  ```
-- make sure that the programs are running with no issues
-
-## Notes
-
-- for neovim make sure to run `checkhealth`
-- links to files and direcotries made were using:
-  ```bash
-  ln -s <COMPLETE_PATH_FOR> <COMPLETE_PATH_TO>
-  ```
+- Inspirations (Nearly copy paste) from [kabinspace dotfiles](https://github.com/kabinspace/dotfiles)
+- Sync-dotfiles script from [systemcrafters](https://systemcrafters.net/managing-your-dotfiles/using-gnu-stow/#dont-forget-to-kbdstowkbd-every-time-you-sync)
