@@ -22,3 +22,7 @@ git clone https://github.com/Abboodash/.dotfiles.git
 # Make symbolic links
 cd .dotfiles && stow -t ~/
 ```
+
+## ⭐ Credits
+
+- [sync-dotfiles](/blob/main/.bin/sync-dotfiles) script from []()
