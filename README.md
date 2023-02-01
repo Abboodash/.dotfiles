@@ -22,8 +22,3 @@ git clone https://github.com/Abboodash/.dotfiles.git
 # Make symbolic links
 cd .dotfiles && stow -t ~/
 ```
-
-## ⭐ Credits
-
-- Inspirations (Nearly copy paste) from [kabinspace dotfiles](https://github.com/kabinspace/dotfiles)
-- Sync-dotfiles script from [systemcrafters](https://systemcrafters.net/managing-your-dotfiles/using-gnu-stow/#dont-forget-to-kbdstowkbd-every-time-you-sync)
