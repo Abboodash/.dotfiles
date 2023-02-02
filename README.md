@@ -26,4 +26,4 @@ cd .dotfiles && stow -t ~/
 
 ## ⭐ Credits
 
-- [sync-dotfiles](/blob/main/.bin/sync-dotfiles) script from []()
+- [sync-dotfiles](/.bin/sync-dotfiles) script from []()
